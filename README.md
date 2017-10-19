@@ -41,7 +41,7 @@ $ cd meteor-deploy-issue
 $ yarn
 ```
 
-Change the `./mup.js`, `server.one.host` property to an IP address you have deploy access too
+Change the `./mup.js`, `server.one`s `host`, `username` and `pem` properties to that of a server you have deploy access too.
 
 Make sure you have [`mup`](https://github.com/zodern/meteor-up) installed (`yarn global add mup`).
 
