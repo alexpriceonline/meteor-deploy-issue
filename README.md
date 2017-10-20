@@ -38,7 +38,6 @@ with non-ascii characters. I've tried a few commands to see if I can find filena
 ```
 $ git clone git@github.com:alexpriceonline/meteor-deploy-issue.git
 $ cd meteor-deploy-issue
-$ yarn
 ```
 
 Change the `./mup.js`, `server.one`s `host`, `username` and `pem` properties to that of a server you have deploy access too.
